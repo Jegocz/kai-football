@@ -1,0 +1,20 @@
+<table border=1>
+    <tr>
+        <th>Platz</th>
+        <th>Mannschaft</th>
+        <th>Punkte</th>
+    </tr>
+
+{% for position in table.tablePositions %}
+    <tr>
+        <td>{{ position.position }}</td>
+        <td>
+            <a href="/team?id={{ position.team.id }}">
+                {{ position.team.name }}
+            </a>
+        </td>
+        <td>{{ position.points }}</td>
+    </tr>
+{% endfor %}
+
+</table>

@@ -1,0 +1,19 @@
+[
+    {
+        "position": 1,
+        "team": {
+            "id": 61,
+            "name": ",Chelsea FC",
+            "crestUrl": "https:\/\/crests.football-data.org\/61.svg"
+        },
+        "playedGames": 7,
+        "form": null,
+        "won": 5,
+        "draw": 1,
+        "lost": 1,
+        "points": 16,
+        "goalsFor": 15,
+        "goalsAgainst": 3,
+        "goalDifference": 12
+    }
+]
